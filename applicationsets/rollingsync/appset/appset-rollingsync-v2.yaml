@@ -39,7 +39,7 @@ spec:
           #maxUpdate: 10%    # all application matched are rollout no more than the percentage indicates
   template:
     metadata:
-      name: 'pricelist-{{srv}}'
+      name: 'my-pricelist-{{srv}}'
       labels:
         pricelist-component: '{{srv}}'
     spec:
