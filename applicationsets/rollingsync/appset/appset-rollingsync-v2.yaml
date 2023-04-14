@@ -60,4 +60,4 @@ spec:
         path: '{{path}}'
       destination:
         server: https://kubernetes.default.svc
-        namespace: mypricelist
+        namespace: pricelistv2
